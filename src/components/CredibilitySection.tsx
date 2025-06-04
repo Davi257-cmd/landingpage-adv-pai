@@ -94,7 +94,7 @@ const CredibilitySection = () => {
                 {/* Photo container */}
                 <div className="relative bg-white p-4 rounded-2xl shadow-2xl" data-id="hl60wem2o" data-path="src/components/CredibilitySection.tsx">
                   <img
-                    src="/images/foto pai.png"
+                    src="/images/foto-pai.png"
                     alt="Dr. Eugênio Lúcio - Advogado Especialista"
                     className="w-64 h-80 md:w-80 md:h-96 object-cover rounded-xl" data-id="gj47ual6n" data-path="src/components/CredibilitySection.tsx" />
 

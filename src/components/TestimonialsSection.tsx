@@ -4,12 +4,12 @@ import { useRef, useState } from "react";
 const depoimentos = [
   {
     nome: "Cliente 1 - Raul",
-    videoUrl: "/videos/cliente 1 - Raul.mp4",
+    videoUrl: "/videos/cliente1-raul.mp4",
     descricao: "Depoimento sobre regularização de imóvel."
   },
   {
     nome: "Cliente 2 - Pedro",
-    videoUrl: "/videos/cliente 2 - pedro.mp4",
+    videoUrl: "/videos/cliente2-pedro.mp4",
     descricao: "Depoimento sobre inventário e holding."
   }
   // Adicione mais depoimentos conforme necessário
@@ -67,7 +67,7 @@ const TestimonialsSection = () => {
                   ref={el => videoRefs.current[idx] = el}
                   width="100%"
                   controls
-                  poster=""
+                  poster="/images/foto-pai.png"
                   style={{ maxHeight: '600px', maxWidth: '100%', objectFit: 'cover' }}
                   onPlay={() => {
                     setPlaying(p => p.map((v, i) => i === idx ? true : v));
